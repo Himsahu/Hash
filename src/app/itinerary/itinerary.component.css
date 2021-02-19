@@ -1,0 +1,155 @@
+/*-------------------------------------------
+             Breadcrumb
+ -----------------------------------------*/
+ .breadcrumb-section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 300px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.page-title {
+    color: #fff;
+}
+
+img{
+    width: 30%;
+    margin: 1rem ;
+
+}
+
+.breadcrumb-menu ul li {
+    position: relative;
+    display: inline-block;
+
+}
+
+.breadcrumb-menu ul li::before {
+    position: absolute;
+    content: "/";
+    right: -3px;
+    top: 2px;
+    color: #fff;
+}
+
+.breadcrumb-menu ul li:last-child:before {
+    display: none;
+}
+
+.breadcrumb-menu ul li:last-child a {
+    padding-right: 0;
+}
+
+.breadcrumb-menu ul li a {
+    color: #fff;
+    font-size: 14px;
+    padding: 0 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.breadcrumb-menu ul li:nth-child(1) a {
+    padding-left: 0;
+}
+
+a{
+    text-decoration: none;
+}
+/* -------------Overlay----------- */
+
+.overlay {
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.op-5 {
+    opacity: 0.5;
+}
+.pad-top-80 {
+    padding-top: 80px !important;
+}
+
+.pad-bot-50 {
+    padding-bottom: 50px !important;
+}
+
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.mar-top-30 {
+    margin-top: 30px !important;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+.class-2{
+    display: none;
+}
+
+@media only screen and (max-width: 767px)
+{
+    .sm-left{
+        text-align: left  !important;
+    }
+}
+
+@media only screen and (max-width: 480px)
+{ 
+    .popular-catagory-content .title {
+        font-size: 25px;
+        top: 38%;
+    }
+
+    .popular-catagory-content .cat-content span {
+        margin-top: 60px;
+    }
+    img{
+        width: 95%;
+    }
+
+    .class-1{
+        display: none;
+    }
+    .class-2{
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1025px){
+    .popular-catagory-content:hover.popular-catagory-content .cat-content {
+        opacity: 1;
+    }   
+}
+
+@media only screen and (max-width: 1024px)
+{
+    .popular-catagory-content .cat-content {
+        opacity: 1;
+
+    }   
+}
+
+@media only screen and (max-width:991px)
+{
+    .popular-catagory-img img{
+        width: 100%;
+    }
+}
+
+  
+  @media (max-width:767px) {
+    
+  }
+
+
