@@ -11,18 +11,17 @@ export class FirstpageComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  countDownDate = new Date("Feb 14, 2021 20:00:00").getTime();
+  countDownDate = new Date("Feb 26, 2021 12:00:00").getTime();
   range : any;
   visible: boolean= false;
 
   x= setInterval(()=>{
     var now = new Date().getTime();
     var distance = this.countDownDate-now;
-    var days = Math.floor(distance/(1000*60*60*24));
     var hours = Math.floor((distance % (1000*60*60*24))/(1000*60*60));
     var minutes = Math.floor((distance % (1000*60*60)/(1000*60)));
     var seconds = Math.floor((distance % (1000*60))/1000);
-    this.range = days+"d "+hours+"h "+minutes+"m "+seconds+"s ";
+    this.range = hours+"h "+minutes+"m "+seconds+"s ";
 
     if(distance<0){
       clearInterval(this.x);
