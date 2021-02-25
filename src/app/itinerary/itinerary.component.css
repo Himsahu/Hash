@@ -92,9 +92,14 @@ a{
 ul li a{
     text-decoration: none;
 }
+.left{
+    width: 10%;
+    color: black;
+}
 
-.class-2{
-    display: none;
+.right{
+    width: 4%;
+    color: black;
 }
 
 .carousel-indicators li{
@@ -121,14 +126,14 @@ ul li a{
         width: 95%;
     }
     .container{
-        width: 100%;
+        width: 97%;
     }
 
-    .class-1{
-        display: none;
+    .right{
+        width: 10%;
     }
-    .class-2{
-        display: block;
+    .left{
+        width: 24%;
     }
 }
 
