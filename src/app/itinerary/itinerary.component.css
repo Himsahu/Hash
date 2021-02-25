@@ -100,7 +100,6 @@ ul li a{
 .carousel-indicators li{
     background-color: black;
 }
-
 @media only screen and (max-width: 767px)
 {
     .sm-left{
@@ -123,6 +122,13 @@ ul li a{
     }
     .container{
         width: 100%;
+    }
+
+    .class-1{
+        display: none;
+    }
+    .class-2{
+        display: block;
     }
 }
 
@@ -154,3 +160,5 @@ ul li a{
   @media (max-width:767px) {
     
   }
+
+
