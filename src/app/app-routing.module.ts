@@ -30,12 +30,12 @@ const routes: Routes = [
   { path: "gallery/ladakhphotos", component: LadakhphotosComponent},
   { path:"gallery/spitiphotos", component:SpitiphotosComponent},
   { path:"gallery/weddingphotos", component: WeddingphotosComponent},
-  { path:"firstpage",component: FirstpageComponent },
+  { path:"k2k/preregistration",component: FirstpageComponent },
   { path:"contactus", component: ContactComponent},
   { path:"feedback", component: FeedbackComponent},
   { path:"privacy", component: PrivacyComponent},
   { path:"ourservices", component: OurservicesComponent},
-  { path: "itinerary", component: ItineraryComponent},
+  { path: "k2k/itinerary", component: ItineraryComponent},
   { path:"**", redirectTo:"/"}
 ];
 
